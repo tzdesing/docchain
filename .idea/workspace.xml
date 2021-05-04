@@ -1,129 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="91176062-bbf9-4476-8d67-94b04fe19307" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/docchain.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/archive/node-DESKTOP-NTPA4DM.2020-03-16-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/archive/node-DESKTOP-NTPA4DM.2020-03-17-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/archive/node-DESKTOP-NTPA4DM.2020-03-24-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/archive/node-DESKTOP-NTPA4DM.2020-03-25-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/node-DESKTOP-NTPA4DM.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/logs/node-DESKTOP-NTPA4DM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Decolar/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Decolar/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/archive/node-DESKTOP-NTPA4DM.2020-03-16-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/archive/node-DESKTOP-NTPA4DM.2020-03-17-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/archive/node-DESKTOP-NTPA4DM.2020-03-24-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/archive/node-DESKTOP-NTPA4DM.2020-03-25-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/node-DESKTOP-NTPA4DM.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/logs/node-DESKTOP-NTPA4DM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Movida/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Movida/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-7E1F0433BD0DE1F8E00E1E413B911E33761B499799DD90A56B0182ADD0733A08" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-98E92AF2904E1C1A3F3A9DD8E283568D7EFA15D621197E2BF0441D1F76E8BB50" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-DESKTOP-NTPA4DM.2020-03-16-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-DESKTOP-NTPA4DM.2020-03-17-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-DESKTOP-NTPA4DM.2020-03-24-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-DESKTOP-NTPA4DM.2020-03-25-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-DESKTOP-NTPA4DM.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-DESKTOP-NTPA4DM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-DESKTOP-NTPA4DM.2019-10-14-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-DESKTOP-NTPA4DM.2019-10-14-10.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-DESKTOP-NTPA4DM.2019-10-14-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-DESKTOP-NTPA4DM.2019-10-14-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/node-DESKTOP-NTPA4DM.log" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/node-DESKTOP-NTPA4DM.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/NodeRPCConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Starter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/static/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/Schema/RegisterSchema$PersistentRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/Schema/RegisterSchema$PersistentRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract$Commands$Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract$Commands$Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/states/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/states/Register.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/Schema/RegisterSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/Schema/RegisterSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/RegisterContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/RegisterContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor$1SignTxFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor$1SignTxFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/RegisterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/RegisterFlow.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/clients/.gradle/" />
-    <ignored path="$PROJECT_DIR$/clients/build/" />
-    <ignored path="$PROJECT_DIR$/clients/out/" />
-    <ignored path="$PROJECT_DIR$/contracts/.gradle/" />
-    <ignored path="$PROJECT_DIR$/contracts/build/" />
-    <ignored path="$PROJECT_DIR$/contracts/out/" />
-    <ignored path="$PROJECT_DIR$/workflows/.gradle/" />
-    <ignored path="$PROJECT_DIR$/workflows/build/" />
-    <ignored path="$PROJECT_DIR$/workflows/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,9 +56,6 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -148,106 +70,12 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="corda_car_rental" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/template/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1143">
-              <caret line="239" selection-start-line="239" selection-end-line="239" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#Controller#0;class#Controller#0" />
-                <element signature="method#isNotary#0;class#Controller#0" />
-                <element signature="method#isNetworkMap#0;class#Controller#0" />
-                <element signature="n#!!doc;n#downloadByHash#0;n#Controller#0" />
-                <element signature="method#downloadByHash#0;class#Controller#0" />
-                <element signature="method#uploadZip#0;class#Controller#0" />
-                <element signature="method#getMyBatches#0;class#Controller#0" />
-                <element signature="method#getRegister#0;class#Controller#0" />
-                <element signature="method#getRegisterHistory#0;class#Controller#0" />
-                <element signature="method#getPeers#0;class#Controller#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clients/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/RegisterContract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/src/main/java/com/template/Schema/RegisterSchema.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workflows/src/main/java/com/template/flows/RegisterFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="166" column="1" selection-start-line="166" selection-start-column="1" selection-end-line="166" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contracts/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -310,6 +138,7 @@
     <option name="width" value="1378" />
     <option name="height" value="733" />
   </component>
+  <component name="ProjectId" id="1s5bXEvTzQM9qlcGz35xHaEC3jT" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -500,9 +329,13 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java_projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.44264707" />
@@ -512,18 +345,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.template.Schema" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Starter">
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -550,6 +371,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -598,13 +420,23 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java</url>
           <line>119</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
@@ -659,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/logs/node-DESKTOP-NTPA4DM.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/stream/Collectors.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_211/src.zip!/java/util/stream/Collectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="300" column="19" lean-forward="true" selection-start-line="300" selection-start-column="19" selection-end-line="300" selection-end-column="19" />
@@ -708,7 +540,7 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/4.1/e099e994e93a51259f1dbf1ec970db8bfba08862/corda-core-4.1-sources.jar!/net/corda/core/messaging/CordaRPCOps.kt" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/InputStream.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_211/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
           <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />

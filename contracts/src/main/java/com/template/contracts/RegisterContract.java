@@ -20,20 +20,9 @@ public class RegisterContract implements Contract {
 
         final CommandWithParties<Commands.Register> command = requireSingleCommand(tx.getCommands(), Commands.Register.class);
         requireThat(require -> {
-            // Generic constraints around the IOU transaction.
-//            require.using("No inputs should be consumed when issuing an IOU.",
-//                    tx.getInputs().isEmpty());
             require.using("Only one output state should be created.",
                     tx.getOutputs().size() == 1);
             final Register out = tx.outputsOfType(Register.class).get(0);
-           // require.using("The lender and the borrower cannot be the same entity.",
-             //       out.getToUser() != out.getFromUser());
-            require.using("All of the participants must be signers.",
-                    command.getSigners().containsAll(out.getParticipants().stream().map(AbstractParty::getOwningKey).collect(Collectors.toList())));
-
-            // IOU-specific constraints.
-            require.using("O valor do total contratado deve ser maior que 10.",
-                    out.getTotal_amount_contracted() > 10);
             return null;
         });
 
@@ -41,15 +30,8 @@ public class RegisterContract implements Contract {
 
     public interface Commands extends CommandData {
         class Register implements Commands {}
-    //    class Transfer implements Commands {}
     }
 
-//    public static class Register implements CommandData {
-//
-//    }
-//    public static class Transfer implements CommandData {
-//
-//    }
 
 
 }

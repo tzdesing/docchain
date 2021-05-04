@@ -31,7 +31,6 @@ import static net.corda.core.contracts.ContractsDSL.requireThat;
 public class RegisterFlow extends FlowLogic<SignedTransaction> {
 
     private Register register;
-    //private final Party toUser;
 
     private final ProgressTracker.Step GENERATING_TRANSACTION = new ProgressTracker.Step("Generating transaction based on new BatchTransaction.");
     private final ProgressTracker.Step VERIFYING_TRANSACTION = new ProgressTracker.Step("Verifying contract constraints.");
@@ -82,23 +81,14 @@ public class RegisterFlow extends FlowLogic<SignedTransaction> {
         //UUID uuid = UUID.fromString(register.getId());
         QueryCriteria queryCriteria = new QueryCriteria.LinearStateQueryCriteria(
                 null,
-                //Collections.singletonList(uuid),
-                //null,
                 null,
                 Collections.singletonList(register.getId()),
                 Vault.StateStatus.UNCONSUMED);//CONSUMED,UNCOSUMED,ALL
 
-
-
         Party me = getOurIdentity();
 
-        Register tempState = new Register(new UniqueIdentifier(register.getId(), UUID.randomUUID()), register.getId(), register.getContract_number_movida(),
-                register.getContract_number_partner(), register.getDocument_type(), register.getDocument_number(),
-                register.getRenter_name(), register.getVehicle_group(), register.getPickup_location(),
-                register.getReturn_location(), register.getPickup_date(), register.getReturn_date(),
-                register.getStatus(), register.getDaily_value(), register.getTotal_amount_contracted(),
-                register.getTotal_amount_paid(),register.getCommission_contracted(), register.getCommission_paid(), register.getUpdated_date(),
-                register.getInsurance_list(), register.getAdditional_list(), register.getAttachment_list(),me, register.getToUser());
+        Register tempState = new Register(new UniqueIdentifier(register.getId(), UUID.randomUUID()),
+                register.getId(), register.getPayload(), me, register.getToUser());
 
         List<StateAndRef<Register>> listStateAndRef = getServiceHub().getVaultService().
                 queryBy(Register.class, queryCriteria).getStates();
@@ -108,25 +98,7 @@ public class RegisterFlow extends FlowLogic<SignedTransaction> {
         //if exists() update data
         if (listStateAndRef.size() > 0) {
             tempState = listStateAndRef.get(0).getState().getData();;
-            tempState.setDocument_type(register.getDocument_type());
-            tempState.setDocument_number(register.getDocument_number());
-            tempState.setRenter_name(register.getRenter_name());
-            tempState.setVehicle_group(register.getVehicle_group());
-            tempState.setPickup_location(register.getPickup_location());
-            tempState.setReturn_location(register.getReturn_location());
-            tempState.setPickup_date(register.getPickup_date());
-            tempState.setReturn_date(register.getReturn_date());
-            tempState.setStatus(register.getStatus());
-            tempState.setDaily_value(register.getDaily_value());
-            tempState.setTotal_amount_contracted(register.getTotal_amount_contracted());
-            tempState.setTotal_amount_paid(register.getTotal_amount_paid());
-            tempState.setCommission_contracted(register.getCommission_contracted());
-            tempState.setCommission_paid(register.getCommission_paid());
-            tempState.setInsurance_list(register.getInsurance_list());
-            tempState.setAdditional_list(register.getAdditional_list());
-            tempState.setAttachment_list(register.getAttachment_list());
-
-            tempState.setUpdated_date(new Date());
+            tempState.setPayload(register.getPayload());
             tempState.setFromUser(me);
             tempState.setToUser(register.getToUser());
         }
