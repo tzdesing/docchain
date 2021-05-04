@@ -1,0 +1,69 @@
+
+c
+java:S2095z"MUse try-with-resources or close this "ZipOutputStream" in a "finally" clause.(Ê¥ƒå
+ 
+java:S4449ï"ˆAnnotate the parameter with @javax.annotation.Nullable in method 'ok' declaration, or make sure that null can not be passed as argument.(ş›ÛŒ
+B
+java:S16129",Replace this lambda with a method reference.(œ»¤õ
+[
+java:S2583á"DChange this condition so that it does not always evaluate to "false"(àÉÿ¶
+`
+java:S1124."EReorder the modifiers to comply with the Java Language Specification.(•†Ğ³ıÿÿÿÿ
+5
+java:S3751F"Make this method "public".(—‰›üÿÿÿÿ
+5
+java:S3751K"Make this method "public".(«éêÿûÿÿÿÿ
+0
+java:S3751^"Make this method "public".(í°íı
+5
+java:S3751h"Make this method "public".(ÏƒÔÂıÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(šøÉÆûÿÿÿÿ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(ÅÚû±ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£ÿ…ô
+N	java:S106‚"9Replace this use of System.out or System.err by a logger.(áÃø
+6
+java:S3751"Make this method "public".(ûºø¨ûÿÿÿÿ
+Y
+java:S1854’"=Remove this useless assignment to local variable "sortByUid".(°áêáûÿÿÿÿ
+Z
+java:S1854‘"CRemove this useless assignment to local variable "generalCriteria".(¾Áş
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈšÍÔÿÿÿÿÿ
+6
+java:S3751œ"Make this method "public".(ÙœÖ–ÿÿÿÿÿ
+u
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈšÍÔÿÿÿÿÿ
+1
+java:S3751¯"Make this method "public".(Ïªù‚
+u
+java:S2293°"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÈšÍÔÿÿÿÿÿ
+1
+java:S3751Â"Make this method "public".(½‹·
+6
+java:S3751Ó"Make this method "public".(ÀÌ±ùÿÿÿÿ
+[
+java:S1854í"ERemove this useless assignment to local variable "signedTransaction".(¨Óş
+O	java:S106Õ"9Replace this use of System.out or System.err by a logger.(³¿Ó
+T	java:S106à"9Replace this use of System.out or System.err by a logger.(¹ı»èÿÿÿÿÿ
+b
+java:S2133ë"FRemove this object instantiation and use "RegisterFlow.class" instead.(êÃ‚çøÿÿÿÿ
+K
+java:S1481‘"4Remove this unused "generalCriteria" local variable.(¾Áş
+J
+java:S1481’".Remove this unused "sortByUid" local variable.(°áêáûÿÿÿÿ
+L
+java:S1481í"6Remove this unused "signedTransaction" local variable.(¨Óş
+E
+java:S1068."*Remove this unused "logger" private field.(•†Ğ³ıÿÿÿÿ
+J
+java:S1068/"/Remove this unused "myLegalName" private field.(€£°»şÿÿÿÿ
+Q	java:S125P"<This block of commented-out lines of code should be removed.(Å•´„
+V	java:S125R"<This block of commented-out lines of code should be removed.(Î´ÁÚúÿÿÿÿ
+V	java:S125T"<This block of commented-out lines of code should be removed.(·³Îıÿÿÿÿ
+Q	java:S125X"<This block of commented-out lines of code should be removed.(Ñò“¥
+V	java:S125f"<This block of commented-out lines of code should be removed.(¢éô£ùÿÿÿÿ
+V	java:S125s"<This block of commented-out lines of code should be removed.(™°€Íıÿÿÿÿ
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(ßî¡í
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(Æ¡°ó
+D
+java:S1144w".Remove this unused private "uploadZip" method.(È”

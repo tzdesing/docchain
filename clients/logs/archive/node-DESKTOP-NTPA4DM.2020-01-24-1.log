@@ -1,0 +1,18 @@
+[INFO ] 2020-01-24T18:33:03,973 [main] Starter - Starting Starter on DESKTOP-NTPA4DM with PID 9860 (C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients\build\classes\java\main started by resource in C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients)
+[INFO ] 2020-01-24T18:33:04,028 [main] Starter - No active profile set, falling back to default profiles: default
+[INFO ] 2020-01-24T18:33:07,122 [main] TomcatWebServer - Tomcat initialized with port(s): 10080 (http)
+[INFO ] 2020-01-24T18:33:07,558 [main] ContextLoader - Root WebApplicationContext: initialization completed in 3403 ms
+[INFO ] 2020-01-24T18:33:12,451 [main] RPCClient - Startup took 3920 msec
+[INFO ] 2020-01-24T18:33:13,536 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-24T18:33:13,843 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2020-01-24T18:33:14,597 [main] TomcatWebServer - Tomcat started on port(s): 10080 (http) with context path ''
+[INFO ] 2020-01-24T18:33:14,616 [main] Starter - Started Starter in 13.834 seconds (JVM running for 15.906)
+[INFO ] 2020-01-24T18:33:16,600 [http-nio-10070-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-01-24T18:33:16,650 [http-nio-10070-exec-1] DispatcherServlet - Completed initialization in 48 ms
+[INFO ] 2020-01-24T18:34:31,626 [http-nio-10080-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-01-24T18:34:31,642 [http-nio-10080-exec-1] DispatcherServlet - Completed initialization in 14 ms
+[INFO ] 2020-01-24T18:35:17,639 [http-nio-10060-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-01-24T18:35:17,653 [http-nio-10060-exec-1] DispatcherServlet - Completed initialization in 14 ms
+[WARN ] 2020-01-25T00:00:51,630 [Thread-8 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[WARN ] 2020-01-25T00:00:53,358 [Thread-146 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[WARN ] 2020-01-25T00:00:58,598 [Thread-21 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.

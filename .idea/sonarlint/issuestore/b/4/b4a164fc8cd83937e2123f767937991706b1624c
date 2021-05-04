@@ -1,0 +1,15 @@
+
+>
+java:S1444"(Make this "public static ID" field final(ñà‚ø
+d
+java:S1104"NMake ID a static final constant or non-public and provide accessors if needed.(ñà‚ø
+c
+java:S3008"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñà‚ø
+ˆ
+java:S1130"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(×‹‹Úøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(þ±ƒ²
+V	java:S125"<This block of commented-out lines of code should be removed.(úÏéÐüÿÿÿÿ
+V	java:S125,"<This block of commented-out lines of code should be removed.(•ì¥üÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(Îë¤ˆýÿÿÿÿ
+V	java:S1251"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+V	java:S1254"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

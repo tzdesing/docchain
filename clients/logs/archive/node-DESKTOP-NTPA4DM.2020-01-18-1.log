@@ -1,0 +1,18 @@
+[INFO ] 2020-01-18T21:35:55,587 [main] Starter - Starting Starter on DESKTOP-NTPA4DM with PID 5396 (C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients\build\classes\java\main started by resource in C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients)
+[INFO ] 2020-01-18T21:35:55,636 [main] Starter - No active profile set, falling back to default profiles: default
+[INFO ] 2020-01-18T21:35:56,568 [main] TomcatWebServer - Tomcat initialized with port(s): 10060 (http)
+[INFO ] 2020-01-18T21:35:57,415 [main] ContextLoader - Root WebApplicationContext: initialization completed in 6087 ms
+[INFO ] 2020-01-18T21:35:59,153 [main] TomcatWebServer - Tomcat initialized with port(s): 10070 (http)
+[INFO ] 2020-01-18T21:35:59,774 [main] ContextLoader - Root WebApplicationContext: initialization completed in 4023 ms
+[INFO ] 2020-01-18T21:36:04,577 [main] RPCClient - Startup took 3757 msec
+[INFO ] 2020-01-18T21:36:04,578 [main] RPCClient - Startup took 5429 msec
+[INFO ] 2020-01-18T21:36:05,860 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-18T21:36:05,903 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2020-01-18T21:36:06,697 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2020-01-18T21:36:07,124 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2020-01-18T21:36:07,448 [main] TomcatWebServer - Tomcat started on port(s): 10070 (http) with context path ''
+[INFO ] 2020-01-18T21:36:07,491 [main] Starter - Started Starter in 15.609 seconds (JVM running for 19.417)
+[INFO ] 2020-01-18T21:36:07,761 [main] TomcatWebServer - Tomcat started on port(s): 10060 (http) with context path ''
+[INFO ] 2020-01-18T21:36:07,772 [main] Starter - Started Starter in 20.976 seconds (JVM running for 24.822)
+[INFO ] 2020-01-18T21:40:08,780 [http-nio-10060-exec-9] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2020-01-18T21:40:08,797 [http-nio-10060-exec-9] DispatcherServlet - Completed initialization in 16 ms
