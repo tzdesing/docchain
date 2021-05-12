@@ -1,4 +1,0 @@
-[WARN ] 2021-05-12T12:17:11,663Z [HikariPool-1 housekeeper] pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h48m44s514ms988µs800ns).
-[WARN ] 2021-05-12T17:24:07,835Z [HikariPool-1 housekeeper] pool.HikariPool.run - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m49s840ms944µs400ns).
-[INFO ] 2021-05-12T22:05:06,407Z [Command line shell terminator] shell.InteractiveShell.invoke - Command shell has exited
-[INFO ] 2021-05-12T22:05:06,410Z [Command line shell terminator] BasicInfo.printBasicNodeInfo - Shutting down ...
