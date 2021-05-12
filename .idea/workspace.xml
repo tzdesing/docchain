@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91176062-bbf9-4476-8d67-94b04fe19307" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/docchain.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/java/com/template/dto/DashboardDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
@@ -20,34 +21,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/docchain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/docchain.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/NodeRPCConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Starter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/static/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/resources/main/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/Schema/RegisterSchema$PersistentRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/Schema/RegisterSchema$PersistentRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract$Commands$Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract$Commands$Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/contracts/RegisterContract.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/states/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/classes/java/main/com/template/states/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/Schema/RegisterSchema.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/Schema/RegisterSchema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/RegisterContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/contracts/RegisterContract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/com/template/states/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor$1SignTxFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor$1SignTxFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow$Acceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/classes/java/main/com/template/flows/RegisterFlow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/RegisterFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/src/main/java/com/template/flows/RegisterFlow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,9 +49,28 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/workflows">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/contracts">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/clients">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="docchain" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="docchain" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -334,8 +334,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../corda_front" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.44264707" />
@@ -346,28 +349,124 @@
       <recent name="com.template.Schema" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Starter">
-    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.template.webserver.Starter" />
-      <module name="corda_poc.clients.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.template.webserver.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.docchain [runPartyAServer]">
+    <configuration name="docchain [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="corda.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/build/nodes/Supplier/corda.jar" />
+    <configuration name="docchain [deployNodes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="deployNodes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="docchain [runPartyAServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runPartyAServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="docchain [runPartyBServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runPartyBServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="docchain:workflows [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/workflows" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Starter" />
-        <item itemvalue="JAR Application.corda.jar" />
+        <item itemvalue="Gradle.docchain [runPartyAServer]" />
+        <item itemvalue="Gradle.docchain [deployNodes]" />
+        <item itemvalue="Gradle.docchain [clean]" />
+        <item itemvalue="Gradle.docchain:workflows [clean]" />
+        <item itemvalue="Gradle.docchain [runPartyBServer]" />
       </list>
     </recent_temporary>
   </component>
@@ -430,6 +529,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -438,6 +538,11 @@
           <url>file://$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java</url>
           <line>119</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

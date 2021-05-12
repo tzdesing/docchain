@@ -1,5 +1,6 @@
 package com.template.webserver;
 
+import com.template.dto.DashboardDTO;
 import com.template.flows.RegisterFlow;
 import com.template.states.Register;
 import net.corda.core.concurrent.CordaFuture;
@@ -10,9 +11,7 @@ import net.corda.core.identity.Party;
 import net.corda.core.messaging.CordaRPCOps;
 import net.corda.core.node.NodeInfo;
 import net.corda.core.node.services.Vault;
-import net.corda.core.node.services.vault.QueryCriteria;
-import net.corda.core.node.services.vault.Sort;
-import net.corda.core.node.services.vault.SortAttribute;
+import net.corda.core.node.services.vault.*;
 import net.corda.core.transactions.SignedTransaction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -27,6 +26,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -170,6 +170,34 @@ public class Controller {
         }
         return ResponseEntity.ok(states);
     }
+
+    @GetMapping(value = "/dashboard/", produces = "application/json")
+    private ResponseEntity<?> getDashboard() {
+        DashboardDTO dashboard = new DashboardDTO();
+
+        List<Party> parties = proxy.nodeInfo().getLegalIdentities();
+
+//            QueryCriteria countCriteriaTotal = new QueryCriteria.VaultCustomQueryCriteria(
+//                    Builder.count(QueryCriteriaUtils.getField("registerId", Register.class)),
+//                    Vault.StateStatus.UNCONSUMED);
+
+//            Vault.Page<Register> totalRegistersCountPage =
+//                    proxy.vaultQueryByCriteria(countCriteriaTotal, Register.class);
+
+
+        BigDecimal totalRegistersCountContractsValuePage = new BigDecimal("2000.00");
+        dashboard.setTotalContracts(8000);
+        dashboard.setTotalContractUpdates(500);
+        dashboard.setTotalContractValue(totalRegistersCountContractsValuePage);
+
+        String jsonGraphTotalContractsByMonth = "[['Jan', 56],['Fev', 1256],['Mar', 658],['Abr', 852],['Mai', 2200]]";
+        String jsonGraphTotalContractsUpdatedByMonth = "[['Jan', 10],['Fev', 20],['Mar', 4],['Abr', 3],['Mai', 0]]";
+        dashboard.setBarChartTotalContractsByMonth(jsonGraphTotalContractsByMonth);
+        dashboard.setBarChartTotalUpdateByMonth(jsonGraphTotalContractsUpdatedByMonth);
+
+        return ResponseEntity.ok(dashboard);
+    }
+
 
     @GetMapping(value = "/register/history/{id}", produces = "application/json")
     private ResponseEntity<ArrayList<Register>> getRegisterHistory(@PathVariable String id) {

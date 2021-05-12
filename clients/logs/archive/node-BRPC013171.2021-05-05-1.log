@@ -1,0 +1,28 @@
+[INFO ] 2021-05-05T20:29:48,102 [main] Starter - Starting Starter on BRPC013171 with PID 44372 (C:\Dev\projects\blockchain\docchain\clients\build\classes\java\main started by armu in C:\Dev\projects\blockchain\docchain\clients)
+[INFO ] 2021-05-05T20:29:48,113 [main] Starter - No active profile set, falling back to default profiles: default
+[INFO ] 2021-05-05T20:29:50,028 [main] TomcatWebServer - Tomcat initialized with port(s): 10060 (http)
+[INFO ] 2021-05-05T20:29:50,422 [main] ContextLoader - Root WebApplicationContext: initialization completed in 2223 ms
+[INFO ] 2021-05-05T20:29:53,242 [main] RPCClient - Startup took 2212 msec
+[INFO ] 2021-05-05T20:29:54,100 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-05-05T20:29:54,334 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2021-05-05T20:29:54,609 [main] TomcatWebServer - Tomcat started on port(s): 10060 (http) with context path ''
+[INFO ] 2021-05-05T20:29:54,616 [main] Starter - Started Starter in 8.365 seconds (JVM running for 9.708)
+[INFO ] 2021-05-05T20:30:28,693 [http-nio-10060-exec-1] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2021-05-05T20:30:28,703 [http-nio-10060-exec-1] DispatcherServlet - Completed initialization in 10 ms
+[INFO ] 2021-05-05T20:53:52,814 [main] Starter - Starting Starter on BRPC013171 with PID 12156 (C:\Dev\projects\blockchain\docchain\clients\build\classes\java\main started by armu in C:\Dev\projects\blockchain\docchain\clients)
+[INFO ] 2021-05-05T20:53:52,824 [main] Starter - No active profile set, falling back to default profiles: default
+[INFO ] 2021-05-05T20:53:55,372 [main] TomcatWebServer - Tomcat initialized with port(s): 10070 (http)
+[INFO ] 2021-05-05T20:53:55,894 [main] ContextLoader - Root WebApplicationContext: initialization completed in 2977 ms
+[INFO ] 2021-05-05T20:53:59,676 [main] RPCClient - Startup took 2959 msec
+[INFO ] 2021-05-05T20:54:00,830 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 2021-05-05T20:54:01,083 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[INFO ] 2021-05-05T20:54:01,387 [main] TomcatWebServer - Tomcat started on port(s): 10070 (http) with context path ''
+[INFO ] 2021-05-05T20:54:01,393 [main] Starter - Started Starter in 10.786 seconds (JVM running for 12.612)
+[WARN ] 2021-05-05T22:07:03,374 [Thread-21 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2021-05-05T22:07:03,721 [Thread-21 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - RPC server available.
+[WARN ] 2021-05-05T22:07:04,484 [Thread-3 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2021-05-05T22:07:04,575 [Thread-3 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - RPC server available.
+[WARN ] 2021-05-05T23:51:07,405 [Thread-5 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2021-05-05T23:51:08,063 [Thread-5 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - RPC server available.
+[WARN ] 2021-05-05T23:51:08,155 [Thread-23 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - Terminating observables.
+[INFO ] 2021-05-05T23:51:08,356 [Thread-23 (ActiveMQ-client-global-threads)] RPCClientProxyHandler - RPC server available.
