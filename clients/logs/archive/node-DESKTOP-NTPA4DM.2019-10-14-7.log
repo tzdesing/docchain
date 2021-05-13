@@ -1,9 +1,0 @@
-[INFO ] 2019-12-03T23:17:22,192 [main] Starter - Starting Starter on DESKTOP-NTPA4DM with PID 3484 (C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients\build\classes\java\main started by resource in C:\Users\resource\Desktop\Develop\movida-corda\corda_car_rental\clients)
-[INFO ] 2019-12-03T23:17:22,279 [main] Starter - No active profile set, falling back to default profiles: default
-[INFO ] 2019-12-03T23:17:26,788 [main] TomcatWebServer - Tomcat initialized with port(s): 10060 (http)
-[INFO ] 2019-12-03T23:17:27,368 [main] ContextLoader - Root WebApplicationContext: initialization completed in 4923 ms
-[INFO ] 2019-12-03T23:17:34,774 [main] RPCClient - Startup took 5898 msec
-[INFO ] 2019-12-03T23:17:36,385 [main] ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-[INFO ] 2019-12-03T23:17:37,149 [main] WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
-[INFO ] 2019-12-03T23:17:37,756 [main] TomcatWebServer - Tomcat started on port(s): 10060 (http) with context path ''
-[INFO ] 2019-12-03T23:17:37,798 [main] Starter - Started Starter in 19.771 seconds (JVM running for 22.655)
