@@ -11,8 +11,12 @@ import net.corda.core.identity.Party;
 import net.corda.core.messaging.CordaRPCOps;
 import net.corda.core.node.NodeInfo;
 import net.corda.core.node.services.Vault;
-import net.corda.core.node.services.vault.*;
+import net.corda.core.node.services.vault.QueryCriteria;
+import net.corda.core.node.services.vault.Sort;
+import net.corda.core.node.services.vault.SortAttribute;
 import net.corda.core.transactions.SignedTransaction;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.io.InputStreamResource;
@@ -184,11 +188,29 @@ public class Controller {
 //            Vault.Page<Register> totalRegistersCountPage =
 //                    proxy.vaultQueryByCriteria(countCriteriaTotal, Register.class);
 
+        //Get total contracts
+        List<StateAndRef<Register>> refStates = proxy.vaultQuery(Register.class).getStates();
+        int countContracts = refStates.size();
 
-        BigDecimal totalRegistersCountContractsValuePage = new BigDecimal("2000.00");
-        dashboard.setTotalContracts(8000);
-        dashboard.setTotalContractUpdates(500);
-        dashboard.setTotalContractValue(totalRegistersCountContractsValuePage);
+        //Get total contracts updated
+        QueryCriteria generalCriteria = new QueryCriteria.VaultQueryCriteria(Vault.StateStatus.CONSUMED);
+        List<StateAndRef<Register>> totStates = proxy.vaultQueryByCriteria(generalCriteria,Register.class).getStates();
+        int totUpdates = totStates.size();
+
+        //Get total contracts value
+        Double accContractValue = 0.0;
+        for(int i = 0; i < refStates.size(); i++){
+            Register tmp = refStates.get(i).getState().getData();
+            JSONObject jsonObject = (JSONObject) JSONValue.parse(tmp.getPayload());
+            if(jsonObject.get("value_total")!=null){
+                String contractValue = jsonObject.get("value_total").toString();
+                accContractValue = accContractValue + Double.parseDouble(contractValue);
+            }
+        }
+
+        dashboard.setTotalContractValue(new BigDecimal(accContractValue.toString()));
+        dashboard.setTotalContracts(countContracts);
+        dashboard.setTotalContractUpdates(totUpdates);
 
         String jsonGraphTotalContractsByMonth = "[['Jan', 56],['Fev', 1256],['Mar', 658],['Abr', 852],['Mai', 2200]]";
         String jsonGraphTotalContractsUpdatedByMonth = "[['Jan', 10],['Fev', 20],['Mar', 4],['Abr', 3],['Mai', 0]]";
