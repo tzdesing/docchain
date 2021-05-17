@@ -1,0 +1,13 @@
+2021-05-17 17:53:19,826 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2021-05-17 17:53:19,829 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+
+   ______               __
+  / ____/     _________/ /___ _
+ / /     __  / ___/ __  / __ `/         If at first you don't succeed, destroy
+/ /___  /_/ / /  / /_/ / /_/ /          all the evidence that you tried.
+\____/     /_/   \__,_/\__,_/
+
+--- Corda Open Source 4.1 (c11f6c1) -------------------------------------------------------------
+
+
+Logs can be found in                    : C:\Users\joes\Develop\docchain\build\nodes\PartyB\logs
