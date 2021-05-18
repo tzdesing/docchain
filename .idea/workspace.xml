@@ -10,140 +10,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-BRPC013171.2021-05-10-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/archive/node-BRPC013171.2021-05-11-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-BRPC013171.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-BRPC013171.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/Notary/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/Notary/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/archive/node-BRPC013171.2021-05-10-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/archive/node-BRPC013171.2021-05-11-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-BRPC013171.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-BRPC013171.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyA/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyA/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/archive/node-BRPC013171.2021-05-10-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/archive/node-BRPC013171.2021-05-11-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-BRPC013171.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-BRPC013171.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyB/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyB/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-507DE864D5F88FD7EAB009B5D75050FCED6A7ED2021EE3AC6A408D1DE9E0D98A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-777DA369F066FE34BEDE3E6334A1006A4026A02DD76AFA798204BD015C9965DE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/additional-node-infos/nodeInfo-DA04DAA7CFA378DFAEE5C02C73DCB3F26B4BEE73A03037D90E6DB041933FD4E4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/artemis/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/artemis/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/artemis/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/artemis/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/artemis/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/bindings/activemq-bindings-1.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/bindings/activemq-bindings-1.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/bindings/activemq-bindings-2.bindings" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/bindings/activemq-bindings-2.bindings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/activemq-data-1.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/activemq-data-1.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/activemq-data-2.amq" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/activemq-data-2.amq" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/server.lock" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/brokers/rpc/journal/server.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/certificates/nodekeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/certificates/nodekeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/certificates/sslkeystore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/certificates/sslkeystore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/certificates/truststore.jks" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/certificates/truststore.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/cordapps/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/cordapps/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/cordapps/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/cordapps/workflows-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/logs/archive/node-BRPC013171.2021-05-10-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/logs/archive/node-BRPC013171.2021-05-11-1.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/logs/node-BRPC013171.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/logs/node-BRPC013171.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/logs/node-info-gen.log" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/logs/node-info-gen.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/network-parameters" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/network-parameters" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/nodeInfo-769153A7F50F00CD3396364697C468323AB504515AEBADFAFD4D969DC5002F66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/persistence.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/persistence.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/persistence.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/persistence.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/nodes/PartyC/process-id" beforeDir="false" afterPath="$PROJECT_DIR$/build/nodes/PartyC/process-id" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/clients/build/classes/java/main/com/template/webserver/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/archive/node-BRPC013171.2021-05-05-9.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/logs/node-BRPC013171.log" beforeDir="false" afterPath="$PROJECT_DIR$/clients/logs/node-BRPC013171.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/main/java/com/template/webserver/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/build/libs/contracts-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/workflows/build/libs/workflows-0.1.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,12 +57,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="docchain" type="f1a62948:ProjectNode" />
-                <item name="clients" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="docchain" type="f1a62948:ProjectNode" />
-                <item name="clients" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
@@ -491,11 +359,33 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="gradle clean" />
-      <command value="gradle deployNodes" />
       <command value="gradle runPartyAServer" />
+      <command value="gradle :clean" />
+      <command value="gradle deployNodes" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.docchain [runPartyAServer]">
+  <component name="RunManager" selected="Gradle.docchain [deployNodes]">
+    <configuration name="docchain [:clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":clean" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="docchain [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -559,31 +449,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="docchain [runPartyBServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="docchain:contracts [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runPartyBServer" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="docchain:workflows [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/workflows" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/contracts" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -603,11 +472,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.docchain [:clean]" />
+        <item itemvalue="Gradle.docchain:contracts [clean]" />
         <item itemvalue="Gradle.docchain [runPartyAServer]" />
         <item itemvalue="Gradle.docchain [clean]" />
         <item itemvalue="Gradle.docchain [deployNodes]" />
-        <item itemvalue="Gradle.docchain:workflows [clean]" />
-        <item itemvalue="Gradle.docchain [runPartyBServer]" />
       </list>
     </recent_temporary>
   </component>

@@ -175,7 +175,7 @@ public class Controller {
         return ResponseEntity.ok(states);
     }
 
-    @GetMapping(value = "/dashboard/", produces = "application/json")
+    @GetMapping(value = "/dashboard", produces = "application/json")
     private ResponseEntity<?> getDashboard() {
         DashboardDTO dashboard = new DashboardDTO();
 
@@ -202,8 +202,8 @@ public class Controller {
         for(int i = 0; i < refStates.size(); i++){
             Register tmp = refStates.get(i).getState().getData();
             JSONObject jsonObject = (JSONObject) JSONValue.parse(tmp.getPayload());
-            if(jsonObject.get("value_total")!=null){
-                String contractValue = jsonObject.get("value_total").toString();
+            if(jsonObject.get("total")!=null){
+                String contractValue = jsonObject.get("total").toString();
                 accContractValue = accContractValue + Double.parseDouble(contractValue);
             }
         }
