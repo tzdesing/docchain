@@ -1,32 +1,29 @@
-buildscript {
-    ext {
-        hibernate_version = '5.3.6.Final'
-        jackson_version = '2.9.5'
-        artemis_version = "2.6.2"
-        corda_release_group = 'net.corda'
-        corda_release_version = '4.1'
-        corda_gradle_plugins_version = '4.0.45'
-        junit_version = '4.12'
-        quasar_version = '0.7.10'
-        spring_boot_version = '2.1.1.RELEASE'
-        spring_boot_gradle_plugin_version = '2.0.2.RELEASE'
-        dependency_management_version ='1.0.6.RELEASE'
-        slf4j_version = '1.7.25'
-        log4j_version = '2.11.2'
-        corda_platform_version = '4'
-        corbeans_version = '0.26'
-    }
+buildscript {//properties that you need to build the project
+    Properties constants = new Properties()
+    file("$projectDir/./constants.properties").withInputStream { constants.load(it) }
 
-    ext['artemis.version'] = "$artemis_version"
-    ext['hibernate.version'] = "$hibernate_version"
-    ext['jackson.version'] = "$jackson_version"
+    ext {
+        corda_release_group = constants.getProperty("cordaReleaseGroup")
+        corda_core_release_group =  constants.getProperty("cordaCoreReleaseGroup")
+        corda_release_version = constants.getProperty("cordaVersion")
+        corda_core_release_version = constants.getProperty("cordaCoreVersion")
+        corda_gradle_plugins_version = constants.getProperty("gradlePluginsVersion")
+        kotlin_version = constants.getProperty("kotlinVersion")
+        junit_version = constants.getProperty("junitVersion")
+        quasar_version = constants.getProperty("quasarVersion")
+        log4j_version = constants.getProperty("log4jVersion")
+        slf4j_version = constants.getProperty("slf4jVersion")
+        corda_platform_version = constants.getProperty("platformVersion").toInteger()
+        //springboot
+        spring_boot_version = '2.0.2.RELEASE'
+        spring_boot_gradle_plugin_version = '2.0.2.RELEASE'
+    }
 
     repositories {
         mavenLocal()
         mavenCentral()
         jcenter()
-        maven { url 'https://ci-artifactory.corda.r3cev.com/artifactory/corda' }
-        //maven { url "http://oss.sonatype.org/content/repositories/releases/" }
+        maven { url 'https://software.r3.com/artifactory/corda-releases' }
     }
 
     dependencies {
@@ -34,20 +31,18 @@ buildscript {
         classpath "net.corda.plugins:cordformation:$corda_gradle_plugins_version"
         classpath "net.corda.plugins:quasar-utils:$corda_gradle_plugins_version"
         classpath "org.springframework.boot:spring-boot-gradle-plugin:$spring_boot_gradle_plugin_version"
-        classpath "io.spring.gradle:dependency-management-plugin:$dependency_management_version"
-        classpath "net.corda.plugins:api-scanner:$corda_gradle_plugins_version"
-        classpath "net.corda.plugins:publish-utils:$corda_gradle_plugins_version"
     }
 }
 
-allprojects {
+allprojects {//Properties that you need to compile your project (The application)
+    apply from: "${rootProject.projectDir}/repositories.gradle"
     apply plugin: 'java'
 
     repositories {
         mavenLocal()
         jcenter()
         mavenCentral()
-        maven { url 'https://ci-artifactory.corda.r3cev.com/artifactory/corda' }
+        maven { url 'https://software.r3.com/artifactory/corda' }
         maven { url 'https://jitpack.io' }
     }
 
@@ -59,6 +54,7 @@ allprojects {
         // This makes the JAR's SHA-256 hash repeatable.
         preserveFileTimestamps = false
         reproducibleFileOrder = true
+        duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     }
 }
 
@@ -66,29 +62,19 @@ apply plugin: 'net.corda.plugins.cordapp'
 apply plugin: 'net.corda.plugins.cordformation'
 apply plugin: 'net.corda.plugins.quasar-utils'
 
-cordapp {
-    info {
-        name "CorDapp Doc Chain"
-        vendor "Corda Open Source"
-        targetPlatformVersion corda_platform_version.toInteger()
-        minimumPlatformVersion corda_platform_version.toInteger()
-    }
-    signing{
-        enabled false
+sourceSets {
+    main {
+        resources {
+            srcDir rootProject.file("config/dev")
+        }
     }
 }
-
+//Module dependencis
 dependencies {
-    testCompile "junit:junit:$junit_version"
-    cordaCompile "net.corda:corda-core:$corda_release_version"
-    cordaCompile "net.corda:corda-jackson:$corda_release_version"
-    cordaCompile "net.corda:corda-rpc:$corda_release_version"
-
-    cordaRuntime "net.corda:corda:$corda_release_version"
-
     // Corda dependencies.
-    cordaRuntime "$corda_release_group:corda-webserver:$corda_release_version"
-    cordaCompile "$corda_release_group:corda-webserver-impl:$corda_release_version"
+    cordaCompile "$corda_core_release_group:corda-core:$corda_core_release_version"
+    cordaCompile "$corda_release_group:corda-node-api:$corda_release_version"
+    cordaRuntime "$corda_release_group:corda:$corda_release_version"
 
     // CorDapp dependencies.
     cordapp project(":workflows")
@@ -96,57 +82,175 @@ dependencies {
 
     cordaCompile "org.apache.logging.log4j:log4j-slf4j-impl:${log4j_version}"
     cordaCompile "org.apache.logging.log4j:log4j-web:${log4j_version}"
+    cordaCompile "org.slf4j:jul-to-slf4j:$slf4j_version"
+
+    cordaDriver "org.postgresql:postgresql:42.1.4"
 }
 
+cordapp {
+    info {
+        name "DockerForm Docchain Cordapp"
+        vendor "Corda Open Source"
+        targetPlatformVersion corda_platform_version
+        minimumPlatformVersion corda_platform_version
+    }
+}
+
+task prepareDockerNodes(type: net.corda.plugins.Dockerform, dependsOn: ['jar']) {
+
+    dockerImage = "corda/corda-zulu-java1.8-" + corda_release_version + ":latest"
+
+    nodeDefaults {
+        projectCordapp {
+            deploy = false
+        }
+        cordapp project("contracts")
+        cordapp project("workflows")
+        runSchemaMigration = false
+        rpcUsers = [[user: "user1", "password": "test", "permissions": ["ALL"]]]
+    }
+
+    node {
+        name "O=Notary,L=London,C=GB"
+        notary = [validating: false]
+        p2pPort 10001
+        p2pAddress "0.0.0.0"
+        rpcSettings {
+            address("0.0.0.0:10011")
+            adminAddress("0.0.0.0:10041")
+        }
+        sshdPort 2221
+    }
+
+    node {
+        name "CN=PartyA,O=PartyA,L=Boston,C=US"
+        p2pPort 10002
+        p2pAddress "0.0.0.0"
+        rpcSettings {
+            address("0.0.0.0:10012")
+            adminAddress("0.0.0.0:10042")
+        }
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partya',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 :["../../../drivers"]
+        ]
+        //drivers = ["${rootProject.projectDir}/drivers"]
+        sshdPort 2222
+    }
+
+    node {
+        name "CN=PartyB,O=PartyB,L=Boston,C=US"
+        p2pPort 10003
+        p2pAddress "0.0.0.0"
+        rpcSettings {
+            address("0.0.0.0:10013")
+            adminAddress("0.0.0.0:10043")
+        }
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partyb',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 : ["../../../drivers"]
+        ]
+        //drivers = ["${rootProject.projectDir}/drivers"]
+        sshdPort 2223
+    }
+
+    node {
+        name "CN=PartyC,O=PartyC,L=Boston,C=US"
+        p2pPort 10004
+        p2pAddress "0.0.0.0"
+        rpcSettings {
+            address("0.0.0.0:10014")
+            adminAddress("0.0.0.0:10044")
+        }
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partyc',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 : ["../../../drivers"]
+        ]
+        //drivers = ["${rootProject.projectDir}/drivers"]
+        sshdPort 2224
+    }
+}
+
+//Task to deploy the nodes in order to bootstrap a network
 task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
+
+    /* This property will load the CorDapps to each of the node by default, including the Notary. You can find them
+     * in the cordapps folder of the node at build/nodes/Notary/cordapps. However, the notary doesn't really understand
+     * the notion of cordapps. In production, Notary does not need cordapps as well. This is just a short cut to load
+     * the Corda network bootstrapper.
+     */
     nodeDefaults {
         projectCordapp {
             deploy = false
         }
         cordapp project(':contracts')
         cordapp project(':workflows')
+        //runSchemaMigration = true //This configuration is for any CorDapps with custom schema, We will leave this as true to avoid
+        //problems for developers who are not familiar with Corda. If you are not using custom schemas, you can change
+        //it to false for quicker project compiling time.
+        rpcUsers = [[user: "user1", "password": "test", "permissions": ["ALL"]]]
     }
     node {
-       name "O=Notary,L=London,C=GB"
-       notary = [validating : false]
-       p2pAddress ("127.0.0.1:10002")
-       rpcSettings {
-           address("127.0.0.1:10003")
-           adminAddress("127.0.0.1:10043")
-       }
-    }   
+        name "O=Notary,L=London,C=GB"
+        notary = [validating : false]
+        p2pPort 10002
+        rpcSettings {
+            address("localhost:10003")
+            adminAddress("localhost:10043")
+        }
+    }
     node {
         name "CN=PartyA,O=PartyA,L=Boston,C=US"
-        p2pAddress("127.0.0.1:10005")
+        p2pPort 10005
         rpcSettings {
-            address("127.0.0.1:10006")
-            adminAddress("127.0.0.1:10046")
-        }        
-        rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
+            address("localhost:10006")
+            adminAddress("localhost:10046")
+        }
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partya',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 :["../../../drivers"]
+        ]
     }
     node {
         name "CN=PartyB,O=PartyB,L=Boston,C=US"
-        p2pAddress ("127.0.0.1:10008") 
+        p2pPort 10008
         rpcSettings {
-            address("127.0.0.1:10009")
-            adminAddress("127.0.0.1:10049")
-        }        
-        rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
+            address("localhost:10009")
+            adminAddress("localhost:10049")
+        }
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partyb',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 : ["../../../drivers"]
+        ]
     }
     node {
         name "CN=PartyC,O=PartyC,L=Boston,C=US"
-        p2pAddress ("127.0.0.1:10011")
+        p2pPort 10011
         rpcSettings {
-            address("127.0.0.1:10012")
-            adminAddress("127.0.0.1:10052")
+            address("localhost:10012")
+            adminAddress("localhost:10052")
         }
-        rpcUsers = [[ user: "user1", "password": "test", "permissions": ["ALL"]]]
-    }
-}
-
-task installQuasar(type: Copy) {
-    destinationDir rootProject.file("lib")
-    from(configurations.quasar) {
-        rename 'quasar-core(.*).jar', 'quasar.jar'
+        extraConfig = [
+                "dataSourceProperties.dataSourceClassName": "org.postgresql.ds.PGSimpleDataSource",
+                "dataSourceProperties.dataSource.url"     : "jdbc:postgresql://34.95.200.167:5432/postgres?sslmode=require",
+                "dataSourceProperties.dataSource.user"    : 'partyc',
+                "dataSourceProperties.dataSource.password": 'docchain@2021',
+                "jarDirs"                                 : ["../../../drivers"]
+        ]
     }
 }
