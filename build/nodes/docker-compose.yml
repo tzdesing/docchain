@@ -1,0 +1,66 @@
+version: '3'
+services:
+  notary:
+    volumes:
+    - /home/nslm/docchain/build/nodes/Notary/node.conf:/etc/corda/node.conf
+    - /home/nslm/docchain/build/nodes/Notary/certificates:/opt/corda/certificates
+    - /home/nslm/docchain/build/nodes/Notary/logs:/opt/corda/logs
+    - /home/nslm/docchain/build/nodes/Notary/persistence:/opt/corda/persistence
+    - /home/nslm/docchain/build/nodes/Notary/cordapps:/opt/corda/cordapps
+    - /home/nslm/docchain/build/nodes/Notary/network-parameters:/opt/corda/network-parameters
+    - /home/nslm/docchain/build/nodes/Notary/additional-node-infos:/opt/corda/additional-node-infos
+    - /home/nslm/docchain/build/nodes/Notary/drivers:/opt/corda/drivers
+    environment:
+    - ACCEPT_LICENSE=${ACCEPT_LICENSE}
+    ports:
+    - 10011
+    - "2221:2221"
+    image: corda/corda-zulu-java1.8-4.7:latest
+  partya:
+    volumes:
+    - /home/nslm/docchain/build/nodes/PartyA/node.conf:/etc/corda/node.conf
+    - /home/nslm/docchain/build/nodes/PartyA/certificates:/opt/corda/certificates
+    - /home/nslm/docchain/build/nodes/PartyA/logs:/opt/corda/logs
+    - /home/nslm/docchain/build/nodes/PartyA/persistence:/opt/corda/persistence
+    - /home/nslm/docchain/build/nodes/PartyA/cordapps:/opt/corda/cordapps
+    - /home/nslm/docchain/build/nodes/PartyA/network-parameters:/opt/corda/network-parameters
+    - /home/nslm/docchain/build/nodes/PartyA/additional-node-infos:/opt/corda/additional-node-infos
+    - /home/nslm/docchain/build/nodes/PartyA/drivers:/opt/corda/drivers
+    environment:
+    - ACCEPT_LICENSE=${ACCEPT_LICENSE}
+    ports:
+    - 10012
+    - "2222:2222"
+    image: corda/corda-zulu-java1.8-4.7:latest
+  partyb:
+    volumes:
+    - /home/nslm/docchain/build/nodes/PartyB/node.conf:/etc/corda/node.conf
+    - /home/nslm/docchain/build/nodes/PartyB/certificates:/opt/corda/certificates
+    - /home/nslm/docchain/build/nodes/PartyB/logs:/opt/corda/logs
+    - /home/nslm/docchain/build/nodes/PartyB/persistence:/opt/corda/persistence
+    - /home/nslm/docchain/build/nodes/PartyB/cordapps:/opt/corda/cordapps
+    - /home/nslm/docchain/build/nodes/PartyB/network-parameters:/opt/corda/network-parameters
+    - /home/nslm/docchain/build/nodes/PartyB/additional-node-infos:/opt/corda/additional-node-infos
+    - /home/nslm/docchain/build/nodes/PartyB/drivers:/opt/corda/drivers
+    environment:
+    - ACCEPT_LICENSE=${ACCEPT_LICENSE}
+    ports:
+    - 10013
+    - "2223:2223"
+    image: corda/corda-zulu-java1.8-4.7:latest
+  partyc:
+    volumes:
+    - /home/nslm/docchain/build/nodes/PartyC/node.conf:/etc/corda/node.conf
+    - /home/nslm/docchain/build/nodes/PartyC/certificates:/opt/corda/certificates
+    - /home/nslm/docchain/build/nodes/PartyC/logs:/opt/corda/logs
+    - /home/nslm/docchain/build/nodes/PartyC/persistence:/opt/corda/persistence
+    - /home/nslm/docchain/build/nodes/PartyC/cordapps:/opt/corda/cordapps
+    - /home/nslm/docchain/build/nodes/PartyC/network-parameters:/opt/corda/network-parameters
+    - /home/nslm/docchain/build/nodes/PartyC/additional-node-infos:/opt/corda/additional-node-infos
+    - /home/nslm/docchain/build/nodes/PartyC/drivers:/opt/corda/drivers
+    environment:
+    - ACCEPT_LICENSE=${ACCEPT_LICENSE}
+    ports:
+    - 10014
+    - "2224:2224"
+    image: corda/corda-zulu-java1.8-4.7:latest
