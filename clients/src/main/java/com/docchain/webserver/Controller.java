@@ -27,10 +27,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
 import java.math.BigDecimal;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -38,6 +38,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
 /**
@@ -96,14 +97,37 @@ public class Controller {
 //    }
     @GetMapping("/attachments/{hash}")
     private ResponseEntity<Resource> downloadByHash(@PathVariable String hash)  {
-        InputStreamResource inputStream = new InputStreamResource(proxy.openAttachment(SecureHash.parse(hash)));
+        InputStreamResource inputStreamResource = new InputStreamResource(proxy.openAttachment(SecureHash.parse(hash)));
+        InputStream inputStream = proxy.openAttachment(SecureHash.parse(hash));
+
+        byte[] buffer = new byte[2048];
+        Path outDir = Paths.get("src/resources/output/");
+        try(
+                ZipInputStream stream = new ZipInputStream(inputStream)
+                ){
+            ZipEntry entry;
+            while ((entry = stream.getNextEntry()) != null) {
+                Path filePath = outDir.resolve(entry.getName());
+                try(FileOutputStream fos = new FileOutputStream(filePath.toFile());
+                    BufferedOutputStream bos = new BufferedOutputStream(fos, buffer.length)){
+                    int len;
+                    while((len = stream.read(buffer))>0){
+                        bos.write(buffer,0,len);
+                    }
+                }
+            }
+        } catch (FileNotFoundException e){
+            e.printStackTrace();
+        } catch (IOException e){
+            e.printStackTrace();
+        }
+
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION,"attachment; filename="+hash+".zip")
-                .body(inputStream);
+                .body(inputStreamResource);
     }
 
     @PostMapping(value = "/upload", produces = "application/json")
-    //private ResponseEntity<String> createRegister(@RequestBody  Register register, @PathVariable String toUser) {
     //Arquivo  Zipado
     private ResponseEntity<String> upload(@RequestParam MultipartFile file) throws IOException{
         String filename = file.getOriginalFilename();
@@ -113,11 +137,27 @@ public class Controller {
         }
         System.out.println("Arquivo recebido => "+filename);
         System.out.println("Uploader =>"+uploader);
-        SecureHash hash = proxy.uploadAttachmentWithMetadata(file.getInputStream(), uploader, filename);
+        SecureHash hash = proxy.uploadAttachmentWithMetadata(getCompressed(file.getInputStream()), uploader, filename);
 
-        // return ResponseEntity.status(HttpStatus.CREATED).body("Transaction id " + signedTransaction.get().getId() +" committed to l
-        //return ResponseEntity.created(URI.create("attachments/"+hash)).body("Attachment uploaded with hash ->"+hash);
         return ResponseEntity.status(HttpStatus.CREATED).body(hash.toString());
+    }
+
+    public InputStream getCompressed(InputStream is) throws IOException{
+        ByteArrayOutputStream bos =  new ByteArrayOutputStream();
+        ZipOutputStream zos = new ZipOutputStream(bos);
+        zos.putNextEntry(new ZipEntry(""));
+
+        int count;
+        byte data[] = new byte[2048];
+        BufferedInputStream entryStream = new BufferedInputStream(is, 2048);
+        while ((count = entryStream.read(data, 0, 2048)) != -1){
+            zos.write(data, 0, count);
+        }
+        entryStream.close();
+        zos.closeEntry();
+        zos.close();
+
+        return new ByteArrayInputStream(bos.toByteArray());
     }
 
     private SecureHash uploadZip(InputStream inputStream, String uploader, String filename) throws IOException {
@@ -146,11 +186,11 @@ public class Controller {
     @GetMapping(value = "/my-batches", produces = "application/json")
     private ResponseEntity<ArrayList<Register>> getMyBatches() {
         ArrayList<Register> states = new ArrayList<Register>();
-        QueryCriteria generalCriteria = new QueryCriteria.VaultQueryCriteria(Vault.StateStatus.ALL);
-        Sort.SortColumn sortByUid = new Sort.SortColumn(new SortAttribute.Standard(Sort.LinearStateAttribute.UUID), Sort.Direction.DESC);
+        //QueryCriteria generalCriteria = new QueryCriteria.VaultQueryCriteria(Vault.StateStatus.ALL);
+        //Sort.SortColumn sortByUid = new Sort.SortColumn(new SortAttribute.Standard(Sort.LinearStateAttribute.UUID), Sort.Direction.DESC);
         List<StateAndRef<Register>> refStates = proxy.vaultQuery(Register.class).getStates();
-        for(Integer i= 0; i < refStates.size(); i++){
-            Register tmp = refStates.get(i).getState().getData();
+        for(StateAndRef<Register> refState: refStates){
+            Register tmp = refState.getState().getData();
             states.add(tmp);
         }
         return ResponseEntity.ok(states);
