@@ -1,8 +1,8 @@
-package com.template.webserver;
+package com.docchain.webserver;
 
-import com.template.dto.DashboardDTO;
-import com.template.flows.RegisterFlow;
-import com.template.states.Register;
+import com.docchain.dto.DashboardDTO;
+import com.docchain.flows.RegisterFlow;
+import com.docchain.states.Register;
 import net.corda.core.concurrent.CordaFuture;
 import net.corda.core.contracts.StateAndRef;
 import net.corda.core.crypto.SecureHash;

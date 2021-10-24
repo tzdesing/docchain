@@ -1,4 +1,4 @@
-package com.template.dto;
+package com.docchain.dto;
 
 import java.math.BigDecimal;
 

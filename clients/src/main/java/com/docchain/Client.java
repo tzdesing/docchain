@@ -1,4 +1,4 @@
-package com.pytuna;
+package com.docchain;
 
 import net.corda.client.rpc.CordaRPCClient;
 import net.corda.client.rpc.CordaRPCConnection;

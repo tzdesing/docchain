@@ -41,17 +41,17 @@ task runPytunaServer(type: JavaExec, dependsOn: jar) {
 task runPartyAServer(type: JavaExec, dependsOn: jar) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.docchain.webserver.Starter'
-    args '--server.port=10060', '--config.rpc.host=127.0.0.1', '--config.rpc.port=49163', '--config.rpc.username=user1', '--config.rpc.password=test'
+    args '--server.port=10060', '--config.rpc.host=127.0.0.1', '--config.rpc.port=10012', '--config.rpc.username=user1', '--config.rpc.password=test'
 }
 
 task runPartyBServer(type: JavaExec, dependsOn: jar) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.docchain.webserver.Starter'
-    args '--server.port=10070', '--config.rpc.host=127.0.0.1', '--config.rpc.port=49161', '--config.rpc.username=user1', '--config.rpc.password=test'
+    args '--server.port=10070', '--config.rpc.host=127.0.0.1', '--config.rpc.port=10013', '--config.rpc.username=user1', '--config.rpc.password=test'
 }
 
 task runPartyCServer(type: JavaExec, dependsOn: jar) {
     classpath = sourceSets.main.runtimeClasspath
     main = 'com.docchain.webserver.Starter'
-    args '--server.port=10080', '--config.rpc.host=127.0.0.1', '--config.rpc.port=49162', '--config.rpc.username=user1', '--config.rpc.password=test'
+    args '--server.port=10080', '--config.rpc.host=127.0.0.1', '--config.rpc.port=10014', '--config.rpc.username=user1', '--config.rpc.password=test'
 }
